@@ -1,6 +1,11 @@
 
 import { Link } from "react-router-dom";
 import './sidebar.css';
+import logo from './../../assets/img/logo.png';
+import { RxDashboard } from "react-icons/rx";
+import { GoProjectRoadmap } from "react-icons/go";
+import { VscInspect } from "react-icons/vsc";
+import { FiInfo } from "react-icons/fi";
 
 // função navegação. 
 function Sidebar ({ children }) { 
@@ -17,11 +22,16 @@ function Sidebar ({ children }) {
                 O children garante que esse conteúdo seja renderizado dentro da div.sidebar do Sidebar.
             */}
             {children}
-            <ul>
+            <img src={logo} alt="Logo" className="logo-header"/>
+            <ul className="menu-opcoes">
                 {/*links de navegação para diferentes rotas*/}
-                <li><Link to="/">dashboard</Link></li>
-                <li><Link to="/ListaProjetos">projetos</Link></li>
+                <li><Link className="link" to="/"><RxDashboard className="icon"/>Dashboard</Link></li>
+                <li><Link className="link" to="/ListaProjetos"><GoProjectRoadmap className="icon"/>Projetos</Link></li>
+                <li><Link className="link" to="/"><VscInspect className="icon"/>Publicações</Link></li>
+                <li><Link className="link" to="/"><FiInfo className="icon"/>Sobre</Link></li>
             </ul>
+
+            
             </div>
            
     );

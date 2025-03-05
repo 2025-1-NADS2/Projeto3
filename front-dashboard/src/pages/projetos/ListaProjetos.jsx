@@ -1,10 +1,51 @@
+import './css/ListaProjetos.css'
 
 function ListaProjetos(){
-
     return(
-        <div>
-            <h1>bbbbbbbbb</h1>
-        </div>
+            <section className='lista-projetos'>
+                <div className='card-projeto'>
+
+                </div>
+
+                <div className='card-projeto'>
+
+                </div>
+
+                <div className='card-projeto'>
+
+                </div>
+
+                <div className='card-projeto'>
+
+                </div>
+
+                <div className='card-projeto'>
+
+                </div>
+
+                <div className='card-projeto'>
+
+                </div>
+
+                <div className='card-projeto'>
+
+                    </div>
+
+                    <div className='card-projeto'>
+
+                    </div>
+
+                    <div className='card-projeto'>
+
+                    </div>
+
+                    <div className='card-projeto'>
+
+                    </div>
+
+            </section>
+
+        
     )
 }
 

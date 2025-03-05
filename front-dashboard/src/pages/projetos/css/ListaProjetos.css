@@ -1,0 +1,50 @@
+.painel-projetos{
+    float: right;
+    width: 1160px;
+    display: flex;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    height: 600px;
+    margin-top: 15px;
+    margin-right: 10px;  
+    padding-right: 4px;
+}
+
+section.lista-projetos{
+    width: 100%;
+    max-width: 100%; /* Pode ajudar a controlar o tamanho da div */
+    margin: auto;
+    height: 500px;
+    padding-inline: 40px;
+    overflow: auto; 
+    margin-top: 60px;
+
+}
+
+section.lista-projetos::-webkit-scrollbar {
+    width: 5px;  
+              
+  }
+  
+section.lista-projetos::-webkit-scrollbar-thumb {
+    background-color: rgb(145, 145, 145);    
+    border-radius: 20px;       
+  }
+
+div.card-projeto{
+    width: 330px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: white;
+    display: inline-block;
+    margin-inline: 10px;
+    margin-block: 8px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+div.card-projeto:hover {
+    transform: scale(1.05);
+}
+

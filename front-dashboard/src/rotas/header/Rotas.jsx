@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./Sidebar";
-import ListaProjetos from "../../pages/projetos/ListaProjetos";
 import Dashboard from "../../pages/dashboard/Dashboard";
+import PainelProjetos from "../../pages/projetos/PainelProjetos";
 
 function Rotas() {
     return(
@@ -12,7 +12,7 @@ function Rotas() {
                     <Routes> {/** define todas as rotas */}
                         {/**Rotas */}
                         <Route path="/" element={<Dashboard />} />
-                        <Route path="/ListaProjetos" element={<ListaProjetos />} />
+                        <Route path="/ListaProjetos" element={<PainelProjetos />} />
                     </Routes>
                 </Sidebar>
 
