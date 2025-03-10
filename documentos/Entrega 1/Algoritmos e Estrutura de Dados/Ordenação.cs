@@ -6,7 +6,6 @@ class OrdenarLista
     static void Main()
     {
         List<int> lista = new List<int> { 20240809, 20241231, 20240305, 20230618, 20230515, 20230516, 20240622 }; //lista dinâmica que recebe datas no formto aaaaMMdd, pois assim é possivel ordenar pela data mais recente
-        string[] datasFormatadas = new string[lista.Count]; //datas no formato dia, mês e ano
 
         while (true)
         {
@@ -29,6 +28,8 @@ class OrdenarLista
             }
         }
 
+        string[] datasFormatadas = new string[lista.Count]; //datas no formato dia, mês e ano
+        
         Ordenar(lista);
 
         for (int i = 0; i < lista.Count; i++) //lista.count recebe a quantidade de itens da lista dinâmica 
