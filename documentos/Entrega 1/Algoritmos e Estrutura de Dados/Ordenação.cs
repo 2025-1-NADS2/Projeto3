@@ -1,5 +1,5 @@
 using System;
-using System.Collections.Generic;
+using System.Collections.Generic; //biblioteca para usar a lista dinâmica
 
 class OrdenarLista
 {
