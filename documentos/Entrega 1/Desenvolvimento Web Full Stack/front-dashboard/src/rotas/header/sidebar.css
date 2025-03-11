@@ -1,15 +1,18 @@
 .sidebar{
     background-color: #1C1C1C;
-    width: auto;
-    margin: auto;
-    display: flow-root;
-    padding-bottom: 15px;
+    max-width: 100%;
+    text-align: left;
+    display: block;
+    padding-bottom: 5rem;
     font-family: Optima, sans-serif;
+    overflow-y: auto;
 }
+
+
 .menu-opcoes{
-    position: fixed;
+    position: relative;
     float: left;
-    margin-top: 120px;
+    margin-top: 50px;
     padding-left: 20px;
 }
 
@@ -46,10 +49,10 @@ a.link:hover{
  
 
 .logo-header{
-    position: fixed;
+    position: relative;
     float: left;
     margin-top: 35px;
-    width: 130px;
+    max-width: 130px;
     margin-left: 15px;
 }
 
@@ -63,8 +66,16 @@ a.link:hover{
 
 
 
-@media (max-width: 1024px){
+@media (min-width: 601px) and (max-width: 900px) {
     .sidebar{
-        background-color: #c03636;
+        background-color: #1c1c1c;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 901px) {
+    .sidebar{
+        background-color: #1c1c1c;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
