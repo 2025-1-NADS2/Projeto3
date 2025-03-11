@@ -14,8 +14,8 @@
 
 
         // relacionamento de um para muitos (1:N)
-        public ICollection<Projeto> ProjetosResponsaveis { get; set; }
-        public ICollection<Participacoes> Participacoes { get; set; }
+        public ICollection<Evento> Eventos { get; set; }
+        public ICollection<Participacao> Participacoes { get; set; }
 
     }
 
