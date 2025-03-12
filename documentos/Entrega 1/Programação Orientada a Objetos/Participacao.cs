@@ -1,7 +1,4 @@
-namespace Dashboard_API.Model
-{
-    public class Participacao
-    {
+public class Participacao {
         public int IdParticipacao;
         public int UsuarioId; 
         public Usuario Usuario; 
@@ -85,4 +82,4 @@ namespace Dashboard_API.Model
 
         
     }
-}
+
