@@ -1,7 +1,4 @@
-namespace Dashboard_API.Model
-{
-    public class FotosEventos
-    {
+class FotosEventos{
         public int IdFotos //{ get; set; }
         public int EventoId //{ get; set; }
         public Evento Evento //{ get; set; }
@@ -50,4 +47,4 @@ namespace Dashboard_API.Model
 
         
     }
-}
+
