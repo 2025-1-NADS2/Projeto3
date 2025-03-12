@@ -1,6 +1,4 @@
-namespace Dashboard_API.Model
-{
-    public class Evento
+class Evento
     {
         public int IdEvento //{ get; set; }
         public string Nome //{ get; set; }
@@ -193,4 +191,4 @@ namespace Dashboard_API.Model
         EmAndamento,
         Finalizado
     }
-}
+
