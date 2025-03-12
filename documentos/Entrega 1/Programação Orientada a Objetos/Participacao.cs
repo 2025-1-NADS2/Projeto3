@@ -1,4 +1,4 @@
-public class Participacao {
+class Participacao {
         public int IdParticipacao;
         public int UsuarioId; 
         public Usuario Usuario; 
