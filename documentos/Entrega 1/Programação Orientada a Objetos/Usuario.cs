@@ -1,6 +1,4 @@
-namespace Dashboard_API.Model
-{
-    public class Usuario
+class Usuario
     {
         public int IdUsuario;
         public string Nome;
@@ -118,5 +116,5 @@ namespace Dashboard_API.Model
         Colaborador = 2,
         UsuarioComum = 3
     }
-}
+
 
