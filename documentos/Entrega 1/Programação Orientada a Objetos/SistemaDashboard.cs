@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
+// CLASSE FUNCIONALIDADES
 public class SistemaDashboard{
   private List eventos;
   private List usuarios;
