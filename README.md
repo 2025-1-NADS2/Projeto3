@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/1e7ad9f0-d71b-42f2-be5b-8bcd2dc69e5c" alt="DASHBOARD" border="0" id="dashboard">
+<img src="https://github.com/user-attachments/assets/aed2fa55-279e-4d38-8603-7a41af54f551" alt="DASHBOARD" border="0" id="dashboard">
   Home Page por <a href="https://www.linkedin.com/in/larissa-de-almeida?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Larissa de Almeida Lira Oliveira</a> 
 </p>
 
