@@ -29,7 +29,8 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/aed2fa55-279e-4d38-8603-7a41af54f551" alt="DASHBOARD" border="0" id="dashboard">
+<img src="https://github.com/user-attachments/assets/aed2fa55-279e-4d38-8603-7a41af54f551" width="700px" alt="DASHBOARD" border="0" id="dashboard">
+  <br>
   Home Page por <a href="https://www.linkedin.com/in/larissa-de-almeida?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Larissa de Almeida Lira Oliveira</a> 
 </p>
 
@@ -106,6 +107,12 @@ make install
 npm test
 Coloque código do prompt de comnando se for necessário
 ```
+## 🗃 Histórico de Lançamentos
+
+- **0.1.0** - 01/03/2024 a 10/03/2025: Organização de tarefas do projeto
+- **0.2.0** - 11/03/2025: x
+- **0.3.0** - 22/04/2025: x
+- **0.4.0** - 18/05/2025: Conclusão do projeto.
 
 ## 📋 Licença/License
 Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
