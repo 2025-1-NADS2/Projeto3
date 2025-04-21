@@ -6,8 +6,6 @@
 
 # Projeto Instituto Criativo - InovaTech :computer: 
 
-<br>
-
 ## Autores
 
 | [<img loading="lazy" src="https://github.com/user-attachments/assets/19285225-5bb9-4c48-84f8-879d5dfd3000" width=115><br><sub>Ana Clara de Souza da Silva</sub>](https://www.linkedin.com/in/ana-c-de-souza-2b640922a/) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/289e7c15-cdde-401f-bd83-5ae6916f437c" width=115><br><sub>Erik dos Santos Raimundo</sub>](https://www.linkedin.com/in/erik-raimundo-5811762b8/) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/d6890331-0775-4b66-971a-48ebdcf3ce38" width=115><br><sub>Larissa de Almeida Lira Oliveira</sub>](https://www.linkedin.com/in/larissa-de-almeida?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/42e9e7a8-7fce-498f-a739-6acc8d57e818" width=115><br><sub>Vinicius Cardoso de Lima</sub>](https://www.linkedin.com/in/vinicius-cardoso-de-lima-a9a918227/) |  
