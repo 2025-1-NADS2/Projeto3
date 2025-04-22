@@ -470,6 +470,51 @@ body {
     box-shadow: 0 2px 3.66px rgba(0, 0, 0, 0.222);
 }
 
+.infoBanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tooltip{
+    background-color: #FF254A;
+    color: var(--clr-background);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.tooltip:after{
+    content: attr(data-tooltip);
+    color: var(--clr-font);
+    background-color: var(--clr-background);
+    opacity: 0;
+    position: absolute;
+    z-index: 3;
+    border-radius: 2rem;
+    width: 120px;
+    height: 20px;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    transition: opacity .25s ease-in-out;
+}
+
+.tooltip:hover:after{
+    opacity: 1;
+    visibility: visible;
+}
+
+[data-position="top"]::after{
+    top: 725px;
+    left: 650px;
+}
+
 #banner{
     background-color: #FF254A;
     border-radius: 3rem;
