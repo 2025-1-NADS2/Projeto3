@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Criativos</title>
+    <link rel="stylesheet" href="../Dashboards/styles.css">
+    <link rel="icon" type="image/x-icon" href="https://github.com/user-attachments/assets/91fc87fb-0847-456a-8921-81a5bd5d754f">
+    <link rel="stylesheet" href="../Dashboards/calendario.css">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-header">
+                    <img src="https://github.com/user-attachments/assets/3daabcbc-0c3c-4446-a54a-1718903d78e8" alt="logo" class="logo">
+                    <button id="fecharSidebar" class="fechar-button">✕</button>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#dashboard"><img src="../Dashboards/img/four-squares-button-of-view-options-svgrepo-com.png" alt="dashboards" class="painel">Painel</a></li>
+                        <li><a href="listaEventos.html"><img src="../Dashboards/img/calendar-heart-svgrepo-com.png" alt="Eventos" class="cal"> Eventos</a></li>
+                        <li><a href="#publications"><img src="../Dashboards/img/wrap-img-left-svgrepo-com.png" alt="Publicações" class="pubs">Publicações</a></li>
+                        <li><a href="sobre.html"><img src="../Dashboards/img/info-svgrepo-com (2).png" alt="sobre" class="sobre"> Sobre</a></li>
+                    </ul>
+                </nav>
+                <div class="tema-toggle">
+                    <button id="temaToggle" class="tema-button">
+                        <span class="tema-icon">🌙</i></span>
+                        <span>Modo Escuro</span>
+                    </button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main class="conteudo-principal">
+            <header class="cabecalho">
+                <button id="abrirSidebar" class="menu-button">
+                    <span class="menu-icon"><img src="../Dashboards/img/menu-svgrepo-com.png" alt="menu" class="menu"></span>
+                </button>
+                <div class="container-busca">
+                    <div class="caixa-busca">
+                        <button class="botao-busca">
+                            <span class="icone-busca"><div class="lupa"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></div></span>
+                        </button>
+                        <input type="text" id="busca" placeholder="Pesquisar Eventos">
+                    </div>
+                    <button class="botao-acao novo-evento">+ Novo Evento</button>
+                </div>
+            </header>
+
+            <div class="conteudo">
+                <div class="grid-projetos">
+                    
+                </div>
+                <div id="conteudo-baixo">
+
+                    <div class="indice-eventos">
+                        <div id="grafico7"></div>
+                    </div>
+
+                    <!-- Estatisticas -->
+                    <div class="grid-estatisticas">
+                        <div class="cartao-estatistica">
+                            <h3>Total de Projetos</h3>
+                            <p class="numero-estatistica">104</p>
+                        </div>
+                        <div class="cartao-estatistica">
+                            <h3>Atividades Concluídas</h3>
+                            <p class="numero-estatistica">97</p>
+                        </div>
+                        <div class="cartao-estatistica">
+                            <h3>Participantes</h3>
+                            <p class="numero-estatistica">5.000</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Calendario -->
+                    <div class="wrapper">
+                        <header>
+                            <p class="data-atual"></p>
+                            <div class="icons">
+                                <span id="prev" class="material-symbols-rounded">⬅</span>
+                                <span id="next" class="material-symbols-rounded">➡</span>
+                            </div>
+                        </header>
+                        <div class="calendar">
+                            <ul class="weeks">
+                                <li>Dom</li>
+                                <li>Seg</li>
+                                <li>Ter</li>
+                                <li>Qua</li>
+                                <li>Qui</li>
+                                <li>Sex</li>
+                                <li>Sab</li>
+                            </ul>
+                            <ul class="dias"></ul>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="modalInfo" class="modal1">
+        <div class="modal-conteudo1">
+            <div class="modal-cabecalho1">
+                <h2>Informações</h2>
+                <button class="fechar-modal1">&times;</button>
+            </div>
+
+            <div class="conteudo1" id="conteudo">
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="modalEvento" class="modal">
+        <div class="modal-conteudo">
+            <div class="modal-cabecalho">
+                <h2>Novo Evento</h2>
+                <button class="fechar-modal">&times;</button>
+            </div>
+
+            <form id="formEvento" class="formulario">
+                <div class="campo-formulario">
+                    <label for="nomeEvento">Nome do Evento</label>
+                    <input type="text" id="nomeEvento" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label>Tipo de evento</label>
+                    <select name="select" id="options">
+                        <option value="">-- Selecione --</option>  
+                        <option value="Aprendizado">Aprendizado</option>
+                        <option value="Recolocação">Recolocação</option>
+                        <option value="Primeiro emprego">Primeiro emprego</option>
+                        <option value="Bem-estar">Bem-estar</option>
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="descricaoEvento">Descrição</label>
+                    <textarea id="descricaoEvento" required></textarea>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="dataInicioEvento">Data de Início</label>
+                    <input type="date" id="dataInicioEvento" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="horaInicio">Hora Início</label>
+                    <input type="time" id="horaInicio" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="horaFinal">Hora Final</label>
+                    <input type="time" id="horaFinal" required>
+                </div>
+
+                <h2 id="localizacao">Local</h2>
+
+                <div class="campo-formulario">
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="logradouro">Logradouro</label>
+                    <input type="text" id="logradouro" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="numero">Número</label>
+                    <input type="text" id="numero" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="capacidade">Capacidade de pessoas</label>
+                    <input type="text" id="capacidade" required>
+                </div>
+
+                <h2 id="pessoas">Responsável</h2>
+
+                <div class="campo-formulario">
+                    <label for="responsavel">Nome</label>
+                    <input type="text" id="responsavel" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="banner">Banner do evento</label>
+                    <input type="file" name="image" accept="image/*" id="banner" required/>
+                    <input type="hidden" name="imageId" id="imageId">
+                </div>
+
+                    <button type="submit" class="botao-salvar">Salvar</button>
+                    <button type="button" class="botao-cancelar">Cancelar</button>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="../Dashboards/calendario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="js/script.js"></script>
+    <script src="../Dashboards/modal.js"></script>
+    <script src="js/info.js"></script>
+    
+</body>
+</html>

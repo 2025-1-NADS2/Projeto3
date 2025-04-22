@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+        <title>Login</title>
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="css/webflow.css" rel="stylesheet" type="text/css">
+        <link href="css/instituto-criativo.webflow.css" rel="stylesheet" type="text/css">
+        <link href="css/login.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/slider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            WebFont.load({
+                google: {
+                    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Poppins:regular,600,700,800", "Inter:regular,500,600,700"]
+                }
+            });
+        </script>
+        
+        <link rel="icon" type="image/x-icon" href="https://github.com/user-attachments/assets/91fc87fb-0847-456a-8921-81a5bd5d754f">
+        <link href="images/webclip.png" rel="apple-touch-icon">
+        <meta name="color-scheme" content="light">
+</head>
+<body>
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+
+        <div class="container w-container">
+
+            <a href="index.html" id="w-node-fdffd808-9d62-3cfe-7b66-fba621edb54a-57276ea9" class="logo w-nav-brand">
+                <img src="images/Logo.svg" loading="lazy" alt="Instituto Criativo">
+            </a>
+            <div id="w-node-_972faf08-b541-cf96-6ea6-788a36200efa-57276ea9" class="right-itens">
+                <a href="https://www.paypal.com/donate/?cmd=_s-xclick&amp;hosted_button_id=EYE7VJQTJKGVE&amp;source=url" target="_blank" class="secondary-button header w-button">Faça uma doação</a>
+            </div>
+
+            <div id="w-node-fdffd808-9d62-3cfe-7b66-fba621edb552-57276ea9" class="menu-mobile w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div id="areacolaborador" class="areacolaborador">
+        <a href="index.html"><img src="images/logoGrande.png" alt="Instituto Criativo" id="logoGrande"></a>
+
+        <div id="dados">
+            <form name="login">
+                <label>E-mail</label>
+                <div class="inputGroupEmail">
+                    <img src="images/email-svgrepo-com 1.png" alt="senha" id="mail">
+                    <input type="email" id="email" name="email" placeholder="exemplo@exemplo.com">
+                </div>
+                <label>Senha</label>
+                <div class="inputGroupSenha">
+                    <img src="images/key-svgrepo-com 1.png" alt="email" id="key">
+                    <input type="password" id="senha" name="senha" placeholder="Exemplo123@">
+                    <button class="viewPassword" type="button" title="Ver ou ocultar senha"><img id="toggleIcon" class="eyeclosed" src="images/eye-close-svgrepo-com.png" alt="ícone olho fechado"></button>
+                </div>
+                <p id="forgotPassword">Esqueci a Senha</p>
+
+                <p id="message" style="display: none; color: red; margin: 10px 0;"></p>
+
+                <div id="botoes">
+                    <button id="confirmar" class="btn" onclick="logar(event)">Confirmar</button>
+                    <button id="dontHaveAccount" class="btn"><a href="cadastroUsuario.html">Não tenho conta</a></button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div id="footer">
+                <div id="companhia">
+                    <h3>Companhia</h3>
+                    <p class="hiperlink">Sobre nós</p>
+                    <p class="hiperlink">Serviços</p>
+                    <p class="hiperlink">Politica de privacidade</p>
+                    <p class="hiperlink">Cultura Organizacional</p>
+                    <p class="hiperlink">Parceiros</p>
+                </div>
+
+                <div id="ajuda">
+                    <h3>Ajuda</h3>
+                    <p class="hiperlink">FAQ</p>
+                    <p class="hiperlink">Contato</p>
+                    <p class="hiperlink">Como doar</p>
+                </div>
+
+                <div id="siga">
+                    <h3>Siga o Instituto</h3>
+                    <img src="images/redes.png" alt="redes">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
