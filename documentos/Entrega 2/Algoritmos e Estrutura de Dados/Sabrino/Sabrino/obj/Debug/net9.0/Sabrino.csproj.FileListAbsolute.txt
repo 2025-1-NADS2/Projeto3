@@ -1,0 +1,14 @@
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\bin\Debug\net9.0\Sabrino.exe
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\bin\Debug\net9.0\Sabrino.deps.json
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\bin\Debug\net9.0\Sabrino.runtimeconfig.json
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\bin\Debug\net9.0\Sabrino.dll
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\bin\Debug\net9.0\Sabrino.pdb
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\obj\Debug\net9.0\Sabrino.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\obj\Debug\net9.0\Sabrino.AssemblyInfoInputs.cache
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\obj\Debug\net9.0\Sabrino.AssemblyInfo.cs
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\obj\Debug\net9.0\Sabrino.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\obj\Debug\net9.0\Sabrino.dll
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\obj\Debug\net9.0\refint\Sabrino.dll
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\obj\Debug\net9.0\Sabrino.pdb
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\obj\Debug\net9.0\Sabrino.genruntimeconfig.cache
+C:\Users\Pichau\OneDrive\Documentos\PI_2025\P\Sabrino\Sabrino\obj\Debug\net9.0\ref\Sabrino.dll
