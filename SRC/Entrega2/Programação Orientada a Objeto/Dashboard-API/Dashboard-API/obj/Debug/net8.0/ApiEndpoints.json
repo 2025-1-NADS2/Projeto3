@@ -1,35 +1,15 @@
 [
   {
-    "ContainingType": "Dashboard_API.Controllers.HomeController",
-    "Method": "cadastroUsario",
-    "RelativePath": "Home/cadastro",
+    "ContainingType": "UsuarioController",
+    "Method": "CadastrarUsuario",
+    "RelativePath": "api/Usuario/cadastro",
     "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Dashboard_API.Controllers.HomeController",
-    "Method": "Index",
-    "RelativePath": "Home/index",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Dashboard_API.Controllers.HomeController",
-    "Method": "Index2",
-    "RelativePath": "Home/index2/{valor}",
-    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "valor",
-        "Type": "System.String",
+        "Name": "usuarioCadastro",
+        "Type": "Dashboard_API.DTOs.UsuarioDTO",
         "IsRequired": true
       }
     ],

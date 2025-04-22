@@ -30,7 +30,7 @@ namespace Dashboard_API.Data
                 entity.Property(u => u.Senha).IsRequired();  // Definir a Senha como obrigatória
                 entity.HasMany(u => u.Eventos).WithOne(e => e.Responsavel).HasForeignKey(e => e.ResponsavelId); // Uma pessoa pode criar vários eventos, mas cada evento tem só um responsável.
                 entity.HasMany(u => u.Participacoes).WithOne(p => p.Usuario).HasForeignKey(p => p.UsuarioId);  // chave estrangeira
-
+            });
                 // Configuração da entidade Evento
                 modelBuilder.Entity<Evento>(entity =>
             {
@@ -43,22 +43,22 @@ namespace Dashboard_API.Data
 
             });
 
-            // Configuração da entidade Participacao
-            modelBuilder.Entity<Participacao>(entity =>
-            {
-                entity.HasKey(p => p.IdParticipacao); // Define a chave primária
-                entity.Property(p => p.TokenIngresso).IsRequired();  // Definir TokenIngresso como obrigatório
-                entity.HasOne(p => p.Usuario).WithMany(u => u.Participacoes).HasForeignKey(p => p.UsuarioId);
-                entity.HasOne(p => p.Evento).WithMany(e => e.Participacoes).HasForeignKey(p => p.EventoId);
-            });
+                // Configuração da entidade Participacao
+                modelBuilder.Entity<Participacao>(entity =>
+                {
+                    entity.HasKey(p => p.IdParticipacao); // Define a chave primária
+                    entity.Property(p => p.TokenIngresso).IsRequired();  // Definir TokenIngresso como obrigatório
+                    entity.HasOne(p => p.Usuario).WithMany(u => u.Participacoes).HasForeignKey(p => p.UsuarioId);
+                    entity.HasOne(p => p.Evento).WithMany(e => e.Participacoes).HasForeignKey(p => p.EventoId);
+                });
 
-            // Configuração da entidade FotosEventos
-            modelBuilder.Entity<FotosEventos>(entity =>
-            {
-                entity.HasKey(f => f.IdFotos); // Define a chave primária
-                entity.Property(f => f.UrlImagem).IsRequired(); // Definir UrlImagem como obrigatória
-                entity.HasOne(f => f.Evento).WithMany(e => e.Fotos).HasForeignKey(f => f.EventoId);
-            });
-        }
+                // Configuração da entidade FotosEventos
+                modelBuilder.Entity<FotosEventos>(entity =>
+                {
+                    entity.HasKey(f => f.IdFotos); // Define a chave primária
+                    entity.Property(f => f.UrlImagem).IsRequired(); // Definir UrlImagem como obrigatória
+                    entity.HasOne(f => f.Evento).WithMany(e => e.Fotos).HasForeignKey(f => f.EventoId);
+                });
+            }
     }
-}
+    }
