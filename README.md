@@ -141,7 +141,7 @@ Por fim apenas clique ctrl + botão esquerdo do mouse em cima do link.
 - **0.4.0** - 18/05/2025: Conclusão do projeto.
 
 ## 📋 Licença/License
-Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+<a href="https://github.com/2025-1-NADS2/Projeto3/tree/main">InovaTech</a> © 2025 by <a href="https://www.linkedin.com/in/ana-c-de-souza-2b640922a/">Ana Clara de Souza</a>, <a href="https://www.linkedin.com/in/erik-raimundo-5811762b8/">Erik dos Santos Raimundo</a>, <a href="https://www.linkedin.com/in/larissa-de-almeida?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Larissa de Almeida Lira Oliveira</a> e <a href="https://www.linkedin.com/in/vinicius-cardoso-de-lima-a9a918227/">Vinicius Cardoso de Lima</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
 ## 🎓 Referências
 
