@@ -36,31 +36,22 @@
 
 <br><br>
 
+## 🛠 Requisitos da instalação
+
+Para executar a aplicação é necessário possuir o Node instalado no aparelho<br>
+Caso você não possua, <a href="https://nodejs.org/en/">clique aqui para instalar o Node</a><br>
+<br>
+Também é necessário possuir o MySQL Workbench<br>
+Caso você não possua, <a href="https://dev.mysql.com/downloads/windows/installer/8.0.html">clique aqui para instalar o MySQL Workbench</a><br>
+<br>
+Por fim, é necessário possuir o VS Code<br>
+Caso você não possua, <a href="https://code.visualstudio.com/download">clique aqui para instalar o MySQL Workbench</a><br>
+
 ## 🛠 Instalação
 
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-
+Faça o download do arquivo no seu desktop.<br>
+Extraia os arquivos.<br>
+Abra o VS Code, e logo em seguida abra a pasta contendo o código.<br>
 
 ## 🛠 Estrutura de pastas
 
@@ -97,34 +88,17 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 |-->imagens<br>
 |readme.md<br>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
-
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Com a pasta aberta:</br>
+Inicie dois terminais de comando<br>
+Abra o primeiro terminal do VS Code e digite ```cd Back_End``` para poder entrar na pasta que contem o Back End</br>
+Logo em seguida digite ```npx nodemon server.js``` para iniciar o servidor</br>
+Abra o segundo terminal do VS Code e digite ```cd front-dashboard``` para poder entrar na pasta que contem o Front End no formato de react</br>
+Logo em seguida digite ```npm run dev``` para iniciar o Vite</br>
+Por fim apenas clique ctrl + botão esquerdo do mouse em cima do link.
 
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 ## 🗃 Histórico de Lançamentos
 
 - **0.1.0** - 01/03/2024 a 10/03/2025: Organização de tarefas do projeto
@@ -144,4 +118,3 @@ Aqui estão as referências usadas no projeto.
 3. <https://chooser-beta.creativecommons.org/>
 4. <https://freesound.org/>
 5. <https://www.toptal.com/developers/gitignore>
-6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
