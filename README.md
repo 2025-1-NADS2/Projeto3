@@ -53,7 +53,7 @@ Faça o download do arquivo no seu desktop.<br>
 Extraia os arquivos.<br>
 Abra o VS Code, e logo em seguida abra a pasta contendo o código.<br>
 
-## 🛠 Estrutura de pastas
+## 📁 Estrutura de pastas Github
 
 -Raiz<br>
 |<br>
@@ -86,6 +86,41 @@ Abra o VS Code, e logo em seguida abra a pasta contendo o código.<br>
   &emsp;&emsp;|-->Programação Orientada a Objetos<br>
 |-->imagens<br>
 |readme.md<br>
+
+## 🎯 Estrutura de pastas Projeto final
+  |-->BackEnd<br>
+  &emsp;|-->node_modules<br>
+  &emsp;|-->routes<br>
+  &emsp;&emsp;|-->authRoutes.js<br>
+  &emsp;|-->uploads<br>
+  &emsp;|-->uploads-ProfPic<br>
+  &emsp;|-->.env<br>
+  &emsp;|-->BaltimoreCyberTrustRoot.crt.pem<br>
+  &emsp;|-->db.js<br>
+  &emsp;|-->package-lock.json<br>
+  &emsp;|-->package.json<br>
+  &emsp;|-->routes.js<br>
+  &emsp;|-->server.js<br>
+  &emsp;|-->uploadconfig.js<br>
+  &emsp;|-->uploadconfigProfPic.js<br>
+  |-->FrontEnd<br>
+  &emsp;|-->node_modules<br>
+  &emsp;|-->public<br>
+  &emsp;|-->src<br>
+  &emsp;&emsp;|-->assets<br>
+  &emsp;&emsp;&emsp;|-->images<br>
+  &emsp;&emsp;&emsp;|-->img<br>
+  &emsp;&emsp;|-->components<br>
+  &emsp;&emsp;&emsp;|-->menu<br>
+  &emsp;&emsp;&emsp;|-->sidebar<br>
+  &emsp;&emsp;|-->pages<br>
+  &emsp;&emsp;&emsp;|-->dashboards<br>
+  &emsp;&emsp;&emsp;|-->instituto<br>
+  &emsp;&emsp;&emsp;|-->lista<br>
+  &emsp;&emsp;&emsp;|-->login<br>
+  &emsp;&emsp;&emsp;|-->sobre<br>
+  &emsp;&emsp;&emsp;|-->usuario<br>
+  &emsp;&emsp;|-->rotas<br>
 
 
 ## 💻 Configuração para Desenvolvimento
