@@ -66,17 +66,35 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 -Raiz<br>
 |<br>
+|-->SRC<br>
+  &emsp;|-->Entrega1<br>
+  &emsp;&emsp;|-->BackEnd<br>
+  &emsp;&emsp;|-->FrontEnd<br>
+  &emsp;|-->Entrega2<br>
+  &emsp;&emsp;|-->BackEnd<br>
+  &emsp;&emsp;|-->FrontEnd<br>
+  &emsp;&emsp;|-->Programação Orientada a Objetos<br>
+  &emsp;|-->Entrega3<br>
+  &emsp;&emsp;|-->BackEnd<br>
+  &emsp;&emsp;|-->FrontEnd<br>
 |-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
+  &emsp;|-->Entrega1<br>
+  &emsp;&emsp;|-->Entrega1<br>
+  &emsp;&emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
+  &emsp;&emsp;&emsp;|-->Desenvolvimento WEB Full Stack<br>
+  &emsp;&emsp;&emsp;|-->Design de Interface Digital<br>
+  &emsp;&emsp;&emsp;|-->Modelagem de Software e Arquitetura de Sistemas<br>
+  &emsp;&emsp;&emsp;|-->Programação Orientada a Objetos<br>
+  &emsp;&emsp;|-->Entrega2<br>
+  &emsp;&emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
+  &emsp;&emsp;&emsp;|-->Design de Interface Digital<br>
+  &emsp;&emsp;&emsp;|-->Modelagem de Software e Arquitetura de Sistemas<br>
+  &emsp;&emsp;|-->Entrega3<br>
+  &emsp;&emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
+  &emsp;&emsp;&emsp;|-->Design de Interface Digital<br>
+  &emsp;&emsp;&emsp;|-->Modelagem de Software e Arquitetura de Sistemas<br>
+  &emsp;&emsp;&emsp;|-->Programação Orientada a Objetos<br>
 |-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
