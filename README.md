@@ -88,7 +88,7 @@ Abra o VS Code, e logo em seguida abra a pasta contendo o código.<br>
 |readme.md<br>
 
 ## 🎯 Estrutura de pastas Projeto final
-  |-->BackEnd<br>
+  🗂️|-->BackEnd<br>
   &emsp;|-->node_modules<br>
   &emsp;|-->routes<br>
   &emsp;&emsp;|-->authRoutes.js<br>
@@ -103,7 +103,7 @@ Abra o VS Code, e logo em seguida abra a pasta contendo o código.<br>
   &emsp;|-->server.js<br>
   &emsp;|-->uploadconfig.js<br>
   &emsp;|-->uploadconfigProfPic.js<br>
-  |-->FrontEnd<br>
+  🗂️|-->FrontEnd<br>
   &emsp;|-->node_modules<br>
   &emsp;|-->public<br>
   &emsp;|-->src<br>
