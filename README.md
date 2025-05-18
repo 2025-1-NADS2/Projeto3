@@ -69,22 +69,22 @@ Abra o VS Code, e logo em seguida abra a pasta contendo o código.<br>
   &emsp;&emsp;|-->BackEnd<br>
   &emsp;&emsp;|-->FrontEnd<br>
 |-->documentos<br>
-  &emsp;|-->Entrega1<br>
-  &emsp;&emsp;|-->Entrega1<br>
-  &emsp;&emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
-  &emsp;&emsp;&emsp;|-->Desenvolvimento WEB Full Stack<br>
-  &emsp;&emsp;&emsp;|-->Design de Interface Digital<br>
-  &emsp;&emsp;&emsp;|-->Modelagem de Software e Arquitetura de Sistemas<br>
-  &emsp;&emsp;&emsp;|-->Programação Orientada a Objetos<br>
-  &emsp;&emsp;|-->Entrega2<br>
-  &emsp;&emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
-  &emsp;&emsp;&emsp;|-->Design de Interface Digital<br>
-  &emsp;&emsp;&emsp;|-->Modelagem de Software e Arquitetura de Sistemas<br>
-  &emsp;&emsp;|-->Entrega3<br>
-  &emsp;&emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
-  &emsp;&emsp;&emsp;|-->Design de Interface Digital<br>
-  &emsp;&emsp;&emsp;|-->Modelagem de Software e Arquitetura de Sistemas<br>
-  &emsp;&emsp;&emsp;|-->Programação Orientada a Objetos<br>
+  
+  ;&emsp;|-->Entrega1<br>
+  &emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
+  &emsp;&emsp;|-->Desenvolvimento WEB Full Stack<br>
+  &emsp;&emsp;|-->Design de Interface Digital<br>
+  &emsp;&emsp;|-->Modelagem de Software e Arquitetura de Sistemas<br>
+  &emsp;&emsp;|-->Programação Orientada a Objetos<br>
+  &emsp;|-->Entrega2<br>
+  &emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
+  &emsp;&emsp;|-->Design de Interface Digital<br>
+  &emsp;&emsp;|-->Modelagem de Software e Arquitetura de Sistemas<br>
+  &emsp;|-->Entrega3<br>
+  &emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
+  &emsp;&emsp;|-->Design de Interface Digital<br>
+  &emsp;&emsp;|-->Modelagem de Software e Arquitetura de Sistemas<br>
+  &emsp;&emsp;|-->Programação Orientada a Objetos<br>
 |-->imagens<br>
 |readme.md<br>
 
