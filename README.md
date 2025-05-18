@@ -69,8 +69,7 @@ Abra o VS Code, e logo em seguida abra a pasta contendo o código.<br>
   &emsp;&emsp;|-->BackEnd<br>
   &emsp;&emsp;|-->FrontEnd<br>
 |-->documentos<br>
-  
-  ;&emsp;|-->Entrega1<br>
+  &emsp;|-->Entrega1<br>
   &emsp;&emsp;|-->Algotitmos e Estrutura de Dados<br>
   &emsp;&emsp;|-->Desenvolvimento WEB Full Stack<br>
   &emsp;&emsp;|-->Design de Interface Digital<br>
