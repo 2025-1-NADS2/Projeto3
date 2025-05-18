@@ -1,0 +1,14 @@
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\bin\Debug\net9.0\Busca_Dupla.exe
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\bin\Debug\net9.0\Busca_Dupla.deps.json
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\bin\Debug\net9.0\Busca_Dupla.runtimeconfig.json
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\bin\Debug\net9.0\Busca_Dupla.dll
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\bin\Debug\net9.0\Busca_Dupla.pdb
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\obj\Debug\net9.0\Busca_Dupla.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\obj\Debug\net9.0\Busca_Dupla.AssemblyInfoInputs.cache
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\obj\Debug\net9.0\Busca_Dupla.AssemblyInfo.cs
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\obj\Debug\net9.0\Busca_Dupla.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\obj\Debug\net9.0\Busca_Dupla.dll
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\obj\Debug\net9.0\refint\Busca_Dupla.dll
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\obj\Debug\net9.0\Busca_Dupla.pdb
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\obj\Debug\net9.0\Busca_Dupla.genruntimeconfig.cache
+C:\Users\Pichau\OneDrive\Documentos\Busca_Dupla\Busca_Dupla\Busca_Dupla\obj\Debug\net9.0\ref\Busca_Dupla.dll

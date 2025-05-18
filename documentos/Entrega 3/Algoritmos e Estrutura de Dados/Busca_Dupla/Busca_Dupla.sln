@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Busca_Dupla", "Busca_Dupla\Busca_Dupla.csproj", "{0EADA8A3-D130-4EF1-9857-50CC90E891A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EADA8A3-D130-4EF1-9857-50CC90E891A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EADA8A3-D130-4EF1-9857-50CC90E891A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EADA8A3-D130-4EF1-9857-50CC90E891A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EADA8A3-D130-4EF1-9857-50CC90E891A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83D8BAB2-A489-4D7A-A980-C6D999304C6C}
+	EndGlobalSection
+EndGlobal
